@@ -1,0 +1,9 @@
+[user]
+	name = Taekyun Kim
+	email = taekyunk@gmail.com
+[core]
+	autocrlf = input
+	pager = less --quiet
+[color]
+	ui = true
+
