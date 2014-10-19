@@ -6,4 +6,10 @@
 	pager = less --quiet
 [color]
 	ui = true
+[alias]
+    sl = log --pretty=format:\"%h: %ad: %s\" --date=short 
+    co = checkout
+    br = branch
+    cm = commit
+    st = status
 
