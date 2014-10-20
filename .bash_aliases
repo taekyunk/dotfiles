@@ -9,6 +9,6 @@ alias gb='git branch '
 alias gl='git log --pretty=format:"%h: %ad: %an: %s" --date=short'
 alias gco='git checkout '
 alias go='git checkout '
-alias gg='git grep -En '
+alias gg='git grep -En --heading --break '
 # alias gx='gitx --all'
 
