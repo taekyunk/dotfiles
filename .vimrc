@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'Townk/vim-autoclose'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
+Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'ervandew/supertab'
 Plug 'godlygeek/csapprox'
 Plug 'godlygeek/tabular'
@@ -11,21 +12,22 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'junegunn/vim-easy-align'
 Plug 'justinmk/vim-sneak'
 Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
+Plug 'urso/haskell_syntax.vim.git'
 Plug 'vim-scripts/ShowMarks'
 Plug 'vim-scripts/matchit.zip'
+
 " snipmate related install
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
-" On-demand loading
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
