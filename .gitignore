@@ -1,0 +1,12 @@
+*.swp
+*~
+*
+!readme.md
+!.bash_aliases
+!.gitconfig
+!.vimrc
+.vim/*
+!.vim/autoload/
+!.vim_misc/
+
+
