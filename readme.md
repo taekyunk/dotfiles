@@ -9,12 +9,15 @@ my dotfiles for linux/ubuntu machines
 
 ## Using subdirectory
 
-1. clone this repo
-2. add symbolic shortcut
+1. clone this repo into ~/dotfiles
+2. add symbolic shortcuts
 
 ````
 ln -s dotfiles/.bash_aliases .bash_aliases
 ln -s dotfiles/.gitconfig .gitconfig
+ln -s dotfiles/.vimrc .vimrc
+ln -s dotfiles/.vim .vim
+ln -s dotfiles/.vim_misc .vim_misc
 
 ````
 
@@ -24,6 +27,6 @@ ln -s dotfiles/.gitconfig .gitconfig
 cd ~
 git init
 git remote add origin https://github.com/foo/bar.git
-git pull
+git pull origin master
 ````
 
