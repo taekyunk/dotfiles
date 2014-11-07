@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim_plugged')
 
 " Make sure you use single quotes
 Plug 'Townk/vim-autoclose'
@@ -32,7 +32,6 @@ Plug 'honza/vim-snippets'
 " Unmanaged plugin (manually installed and updated)
 Plug '~/.vim_misc/filetype_specific_setting'
 Plug '~/.vim_misc/my_snippets'
-" Plug '~/my-prototype-plugin'
 
 call plug#end()
 
