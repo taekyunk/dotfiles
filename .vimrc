@@ -1,4 +1,14 @@
-call plug#begin('~/.vim_plugged')
+
+" setup different location depending on window/unix
+let s:is_windows = has('win32') || has('win64')
+
+if s:is_windows
+    let s:vimplug_location = $VIM . '/vim_plugged'
+else
+    let s:vimplug_location = '~/.vim_plugged'
+endif
+
+call plug#begin(s:vimplug_location)
 
 " Make sure you use single quotes
 Plug 'Townk/vim-autoclose'
