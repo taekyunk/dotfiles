@@ -29,9 +29,9 @@ Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 
-" Unmanaged plugin (manually installed and updated)
-Plug '~/.vim_misc/filetype_specific_setting'
-Plug '~/.vim_misc/my_snippets'
+" personal plugin 
+Plug 'taekyunk/vim-tk-snippets'
+Plug 'taekyunk/vim-tk-filetype-setting'
 
 call plug#end()
 
