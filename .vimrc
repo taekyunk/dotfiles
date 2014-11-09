@@ -362,7 +362,7 @@ augroup spellCheck
     autocmd!
     autocmd BufNewFile,BufRead,BufEnter *.tex setlocal spell spelllang=en_us
     autocmd BufNewFile,BufRead,BufEnter *.txt setlocal spell spelllang=en_us
-    autocmd BufNewFile,BufRead,BufEnter *.md setlocal spell spelllang=en_us
+    " autocmd BufNewFile,BufRead,BufEnter *.md setlocal spell spelllang=en_us
 augroup END
 
 
