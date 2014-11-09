@@ -1,12 +1,17 @@
 call plug#begin('~/.vim_plugged')
 
-" Make sure you use single quotes
-Plug 'Townk/vim-autoclose'
+" colorscheme
+Plug 'godlygeek/csapprox'
 Plug 'altercation/vim-colors-solarized'
+Plug 'tomasr/molokai'
+Plug 'vim-scripts/wombat256.vim'
+Plug 'jnurmine/Zenburn'
+
+" plugins
+Plug 'Townk/vim-autoclose'
 Plug 'bling/vim-airline'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'ervandew/supertab'
-Plug 'godlygeek/csapprox'
 Plug 'godlygeek/tabular'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'junegunn/vim-easy-align'
@@ -160,10 +165,17 @@ set guioptions-=T  "remove toolbar
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set t_Co=256
 
-let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
+if has('gui_running')
+    let g:solarized_termcolors=256
+    set background=dark
+    colorscheme solarized
+else
+    colorscheme wombat256mod
+endif
 
+" let g:rehash256 = 1
+" colorscheme molokai
+"
 " colorscheme zenburn
 
 "let g:kolor_italic=1                    " Enable italic. Default: 1
