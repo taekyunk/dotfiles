@@ -12,16 +12,19 @@
 
 # how to use
 
-1. clone this repo into ~/dotfiles
-2. add symbolic shortcuts
-3. to install programs, run install_prog.sh
+0. Install git first, if not already
 
-````
-cd ~
-git clone https://github.com/taekyunk/dotfiles
-sh dotfiles/setup.sh
-sh dotfiles/install_git.sh
-sh dotfiles/install_doublecmd.sh
-sh dotfiles/install_gvim.sh
-````
+    sudo apt-get update
+    sudo apt-get install git gitk -y
+
+1. run the following
+
+    cd ~
+    # clone repository
+    git clone https://github.com/taekyunk/dotfiles
+    # setup 
+    sh dotfiles/setup.sh
+    # install programs
+    sh dotfiles/install_doublecmd.sh
+    sh dotfiles/install_gvim.sh
 
