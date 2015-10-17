@@ -3,7 +3,12 @@
 %
 
 # About
-my dotfiles for linux/ubuntu machines
+
+- setup dotfiles for linux/ubuntu machines
+- install basic programs
+    - git
+    - doublecmd
+    - gvim
 
 # how to use
 
@@ -15,6 +20,8 @@ my dotfiles for linux/ubuntu machines
 cd ~
 git clone https://github.com/taekyunk/dotfiles
 sh dotfiles/setup.sh
-sh dotfiles/install_prog.sh
+sh dotfiles/install_git.sh
+sh dotfiles/install_doublecmd.sh
+sh dotfiles/install_gvim.sh
 ````
 
