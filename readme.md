@@ -14,17 +14,21 @@
 
 0. Install git first, if not already
 
-    sudo apt-get update
-    sudo apt-get install git gitk -y
+````
+sudo apt-get update
+sudo apt-get install git gitk -y
+````
 
 1. run the following
 
-    cd ~
-    # clone repository
-    git clone https://github.com/taekyunk/dotfiles
-    # setup 
-    sh dotfiles/setup.sh
-    # install programs
-    sh dotfiles/install_doublecmd.sh
-    sh dotfiles/install_gvim.sh
+````
+cd ~
+# clone repository
+git clone https://github.com/taekyunk/dotfiles
+# setup 
+sh dotfiles/setup.sh
+# install programs
+sh dotfiles/install_doublecmd.sh
+sh dotfiles/install_gvim.sh
+````
 
